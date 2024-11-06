@@ -19,7 +19,7 @@
     height: 96vh;
     width: 40%;
     border-radius: 20px;
-    background: url('../images/template/R.jfif');
+    background: url('../images/rectangulo.png');
 }
 #contact{
 	position: fixed;
