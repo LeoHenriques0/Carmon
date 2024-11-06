@@ -136,3 +136,103 @@ body{
     font-size: 11pt;
     font-family: sans-serif;
 }
+/*****************Area About****************************/
+.about_page{
+   width: 100%;;
+   height: 100vh;
+}
+.content_one_about{
+    width: 100%;
+    height: 90vh;
+}
+.content_one_about_first_page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 60vh;
+}
+.about_one{
+   width: 50%;
+   height: 100%;
+   background:url('..//images/03.png.png');
+   background-size: cover;   
+}
+.about_one_img{
+    width: 30%;
+}
+.about_two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background:url('..//images/Rectangle\ 1.png');
+    background-size: cover;
+     }
+ .btn_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%; 
+    }
+ .close_btn{
+    font-size: 11px;
+    width: 16%;
+    padding: 8px;
+    border-radius: 50px;
+    border: 1px solid white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: transparent;
+    color: white;
+    margin: 10px 10px 10px 0px;
+ }
+.about_discription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 50%;
+    height: 90vh;    
+}
+.h2_about_two{
+    font-size: 14pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.paragraph_about_discription{
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 12px;
+    color: rgba(247, 241, 241, 0.467);
+    width: 90%;    
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.card_one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     width: 25%;
+    height: 30vh;
+    border: 1px dotted;
+
+}
+.card_one b{
+    color: white;
+    font-size: 4em;
+}
+.paragraph_card_about{
+    font-size: 14pt;
+    text-align: center;
+    color: white;
+    margin-top: 12px;
+}
