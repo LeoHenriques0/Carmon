@@ -72,7 +72,8 @@ body{
     padding: 10px;
     border: none;
     border-radius:50px;
-    background: url(../images/Rectangle\ 8.png);background-size: cover;
+    background: url(../images/Rectangle\ 3.png);
+    background-size: contain;
 }
 .home_page_second_div{
     display: flex;
