@@ -68,7 +68,7 @@
 }
 .button01{
 	background-color: transparent;
-	border: 2px solid white;
+	border: 1px solid white;
 	margin-bottom: 30px;
 }
 .button02{
@@ -160,9 +160,15 @@
 	font-size: 7pt;
 	color: white;
 }
+.button01:hover{
+	background:url('../images/Rectangle\ 3.png');
+	border:none;
+	margin-bottom: 55px;
+	transition: all 3s ;
+}
 .button01{
 	background-color: transparent;
-	border: 2px solid white;
+	border: 1px solid white;
 	margin-bottom: 55px;
 }
 .button02{

@@ -116,6 +116,30 @@ body{
     height: 26%;
     width: 50%;
 }
+.saber_mais_anchor{
+    width: 85%;
+    font-size: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius:50px;
+    border:1px solid white ;
+    background-color: transparent;
+    color:white;
+    text-align: center;
+}
+.saber_mais_anchor:hover{
+    width: 85%;
+    font-size: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius:50px;
+    border:none;
+    background:url('../images/Rectangle\ 3.png');
+    color:white;
+    text-align: center;
+}
 .saber_mais_button{
     width: 100%;
     font-size: 8px;
